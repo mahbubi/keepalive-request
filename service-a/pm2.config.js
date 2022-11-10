@@ -7,7 +7,6 @@ module.exports = {
       env: {
         NODE_ENV: "production",
         PORT: 3000,
-        SERVICE_B_BASE_URL: 'http://<ip>:3000'
       }
     }
   ]
