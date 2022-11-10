@@ -14,6 +14,6 @@ RUN npm i -g pm2
 # Add application files
 ADD service-b /var/www/app
 
-EXPOSE 3000
+EXPOSE 3001
 
 CMD ["pm2", "start", "process.json", "--no-daemon"]
